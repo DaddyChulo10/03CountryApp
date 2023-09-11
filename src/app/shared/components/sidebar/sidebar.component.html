@@ -1,0 +1,60 @@
+<!-- <h5>Busqueda de Píses</h5>
+<hr> -->
+<!-- list-group-flush -->
+<!-- <div class="list-group ">
+
+    <button type="button" class="list-group-item list-group-item-action" routerLink=""
+        [routerLinkActiveOptions]="{exact: true}" routerLinkActive="active">
+        <small>Home</small>
+    </button>
+
+    <button type="button" routerLink="about" class="list-group-item list-group-item-action" routerLinkActive="active">
+        <small>About</small>
+    </button>
+
+    <button type="button" routerLink="contact" class="list-group-item list-group-item-action" routerLinkActive="active">
+        <small>Contact</small>
+    </button>
+
+    <button type="button" routerLink="countries/by-capital" class="list-group-item list-group-item-action"
+        routerLinkActive="active">
+        <small>Por capital</small>
+    </button>
+
+</div> -->
+
+
+<nav class="navbar navbar-light bg-light align-items-stretch p-3">
+    <div ><h5>Busqueda de Píses</h5></div>
+    <nav class="nav nav-pills flex-column">
+
+        <div type="button" class="nav-link" routerLink="home" [routerLinkActiveOptions]="{exact: true}"
+            routerLinkActive="active">
+            <small>Home</small>
+        </div>
+
+        <div type="button" routerLink="about" class="nav-link" routerLinkActive="active">
+            <small>About</small>
+        </div>
+
+        <div type="button" routerLink="contact" class="nav-link" routerLinkActive="active">
+            <small>Contact</small>
+        </div>
+
+        <nav class="nav nav-pills flex-column">
+            <div type="button" routerLink="countries/by-capital" class="nav-link ms-3 my-1" routerLinkActive="active">
+                <small>Por capital</small>
+            </div>
+            
+            <div type="button" routerLink="countries/by-country" class="nav-link ms-3 my-1" routerLinkActive="active">
+                <small>Por País</small>
+            </div>
+
+            <div type="button" routerLink="countries/by-region" class="nav-link ms-3 my-1" routerLinkActive="active">
+                <small>Por Region</small>
+            </div>
+        </nav>
+
+
+    </nav>
+</nav>
